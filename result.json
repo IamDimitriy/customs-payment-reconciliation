@@ -1,0 +1,1712 @@
+{
+  "data_kind": "synthetic",
+  "scenarios_checked": 22,
+  "scenarios": {
+    "equal_totals": {
+      "report_control": {
+        "incoming": {
+          "header_kop": 0,
+          "rows_kop": 0,
+          "difference_kop": 0
+        },
+        "outgoing": {
+          "header_kop": 3230000,
+          "rows_kop": 3230000,
+          "difference_kop": 0
+        }
+      },
+      "unlinked_exception_rows": [],
+      "exception_rows_for_other_declarations": {},
+      "out_of_scope_rows": [],
+      "unrecognized_movement_rows": [],
+      "groups": {
+        "10000000/010926/0000001": {
+          "status": "equal",
+          "reasons": [],
+          "ledger_kop": 1250000,
+          "report_kop": 1250000,
+          "delta_kop": 0,
+          "ledger_rows": [
+            "УЧ-01"
+          ],
+          "report_rows": [
+            "ФТС-01"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/020926/0000002": {
+          "status": "amount_difference",
+          "reasons": [],
+          "ledger_kop": 750000,
+          "report_kop": 720000,
+          "delta_kop": -30000,
+          "ledger_rows": [
+            "УЧ-02"
+          ],
+          "report_rows": [
+            "ФТС-02"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/030926/0000003": {
+          "status": "amount_difference",
+          "reasons": [],
+          "ledger_kop": 1000000,
+          "report_kop": 1030000,
+          "delta_kop": 30000,
+          "ledger_rows": [
+            "УЧ-03"
+          ],
+          "report_rows": [
+            "ФТС-03"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/040926/0000004": {
+          "status": "ledger_only",
+          "reasons": [],
+          "ledger_kop": 230000,
+          "report_kop": 0,
+          "delta_kop": -230000,
+          "ledger_rows": [
+            "УЧ-04"
+          ],
+          "report_rows": [],
+          "linked_exception_rows": []
+        },
+        "10000000/050926/0000005": {
+          "status": "report_only",
+          "reasons": [],
+          "ledger_kop": 0,
+          "report_kop": 230000,
+          "delta_kop": 230000,
+          "ledger_rows": [],
+          "report_rows": [
+            "ФТС-04"
+          ],
+          "linked_exception_rows": []
+        }
+      }
+    },
+    "unconfirmed_ledger_coverage": {
+      "report_control": {
+        "incoming": {
+          "header_kop": 0,
+          "rows_kop": 0,
+          "difference_kop": 0
+        },
+        "outgoing": {
+          "header_kop": 3230000,
+          "rows_kop": 3230000,
+          "difference_kop": 0
+        }
+      },
+      "unlinked_exception_rows": [],
+      "exception_rows_for_other_declarations": {},
+      "out_of_scope_rows": [],
+      "unrecognized_movement_rows": [],
+      "groups": {
+        "10000000/010926/0000001": {
+          "status": "manual_review",
+          "reasons": [
+            "ledger_coverage_unconfirmed"
+          ],
+          "ledger_kop": 1250000,
+          "report_kop": 1250000,
+          "delta_kop": 0,
+          "ledger_rows": [
+            "УЧ-01"
+          ],
+          "report_rows": [
+            "ФТС-01"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/020926/0000002": {
+          "status": "manual_review",
+          "reasons": [
+            "ledger_coverage_unconfirmed"
+          ],
+          "ledger_kop": 750000,
+          "report_kop": 720000,
+          "delta_kop": -30000,
+          "ledger_rows": [
+            "УЧ-02"
+          ],
+          "report_rows": [
+            "ФТС-02"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/030926/0000003": {
+          "status": "manual_review",
+          "reasons": [
+            "ledger_coverage_unconfirmed"
+          ],
+          "ledger_kop": 1000000,
+          "report_kop": 1030000,
+          "delta_kop": 30000,
+          "ledger_rows": [
+            "УЧ-03"
+          ],
+          "report_rows": [
+            "ФТС-03"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/040926/0000004": {
+          "status": "manual_review",
+          "reasons": [
+            "ledger_coverage_unconfirmed"
+          ],
+          "ledger_kop": 230000,
+          "report_kop": 0,
+          "delta_kop": -230000,
+          "ledger_rows": [
+            "УЧ-04"
+          ],
+          "report_rows": [],
+          "linked_exception_rows": []
+        },
+        "10000000/050926/0000005": {
+          "status": "manual_review",
+          "reasons": [
+            "ledger_coverage_unconfirmed"
+          ],
+          "ledger_kop": 0,
+          "report_kop": 230000,
+          "delta_kop": 230000,
+          "ledger_rows": [],
+          "report_rows": [
+            "ФТС-04"
+          ],
+          "linked_exception_rows": []
+        }
+      }
+    },
+    "missing_ledger_coverage_confirmation": {
+      "report_control": {
+        "incoming": {
+          "header_kop": 0,
+          "rows_kop": 0,
+          "difference_kop": 0
+        },
+        "outgoing": {
+          "header_kop": 3230000,
+          "rows_kop": 3230000,
+          "difference_kop": 0
+        }
+      },
+      "unlinked_exception_rows": [],
+      "exception_rows_for_other_declarations": {},
+      "out_of_scope_rows": [],
+      "unrecognized_movement_rows": [],
+      "groups": {
+        "10000000/010926/0000001": {
+          "status": "manual_review",
+          "reasons": [
+            "ledger_coverage_unconfirmed"
+          ],
+          "ledger_kop": 1250000,
+          "report_kop": 1250000,
+          "delta_kop": 0,
+          "ledger_rows": [
+            "УЧ-01"
+          ],
+          "report_rows": [
+            "ФТС-01"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/020926/0000002": {
+          "status": "manual_review",
+          "reasons": [
+            "ledger_coverage_unconfirmed"
+          ],
+          "ledger_kop": 750000,
+          "report_kop": 720000,
+          "delta_kop": -30000,
+          "ledger_rows": [
+            "УЧ-02"
+          ],
+          "report_rows": [
+            "ФТС-02"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/030926/0000003": {
+          "status": "manual_review",
+          "reasons": [
+            "ledger_coverage_unconfirmed"
+          ],
+          "ledger_kop": 1000000,
+          "report_kop": 1030000,
+          "delta_kop": 30000,
+          "ledger_rows": [
+            "УЧ-03"
+          ],
+          "report_rows": [
+            "ФТС-03"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/040926/0000004": {
+          "status": "manual_review",
+          "reasons": [
+            "ledger_coverage_unconfirmed"
+          ],
+          "ledger_kop": 230000,
+          "report_kop": 0,
+          "delta_kop": -230000,
+          "ledger_rows": [
+            "УЧ-04"
+          ],
+          "report_rows": [],
+          "linked_exception_rows": []
+        },
+        "10000000/050926/0000005": {
+          "status": "manual_review",
+          "reasons": [
+            "ledger_coverage_unconfirmed"
+          ],
+          "ledger_kop": 0,
+          "report_kop": 230000,
+          "delta_kop": 230000,
+          "ledger_rows": [],
+          "report_rows": [
+            "ФТС-04"
+          ],
+          "linked_exception_rows": []
+        }
+      }
+    },
+    "partially_confirmed_ledger_coverage": {
+      "report_control": {
+        "incoming": {
+          "header_kop": 0,
+          "rows_kop": 0,
+          "difference_kop": 0
+        },
+        "outgoing": {
+          "header_kop": 3230000,
+          "rows_kop": 3230000,
+          "difference_kop": 0
+        }
+      },
+      "unlinked_exception_rows": [],
+      "exception_rows_for_other_declarations": {},
+      "out_of_scope_rows": [],
+      "unrecognized_movement_rows": [],
+      "groups": {
+        "10000000/010926/0000001": {
+          "status": "manual_review",
+          "reasons": [
+            "ledger_coverage_unconfirmed"
+          ],
+          "ledger_kop": 1250000,
+          "report_kop": 1250000,
+          "delta_kop": 0,
+          "ledger_rows": [
+            "УЧ-01"
+          ],
+          "report_rows": [
+            "ФТС-01"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/020926/0000002": {
+          "status": "amount_difference",
+          "reasons": [],
+          "ledger_kop": 750000,
+          "report_kop": 720000,
+          "delta_kop": -30000,
+          "ledger_rows": [
+            "УЧ-02"
+          ],
+          "report_rows": [
+            "ФТС-02"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/030926/0000003": {
+          "status": "amount_difference",
+          "reasons": [],
+          "ledger_kop": 1000000,
+          "report_kop": 1030000,
+          "delta_kop": 30000,
+          "ledger_rows": [
+            "УЧ-03"
+          ],
+          "report_rows": [
+            "ФТС-03"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/040926/0000004": {
+          "status": "ledger_only",
+          "reasons": [],
+          "ledger_kop": 230000,
+          "report_kop": 0,
+          "delta_kop": -230000,
+          "ledger_rows": [
+            "УЧ-04"
+          ],
+          "report_rows": [],
+          "linked_exception_rows": []
+        },
+        "10000000/050926/0000005": {
+          "status": "report_only",
+          "reasons": [],
+          "ledger_kop": 0,
+          "report_kop": 230000,
+          "delta_kop": 230000,
+          "ledger_rows": [],
+          "report_rows": [
+            "ФТС-04"
+          ],
+          "linked_exception_rows": []
+        }
+      }
+    },
+    "restored_ledger_entry": {
+      "report_control": {
+        "incoming": {
+          "header_kop": 0,
+          "rows_kop": 0,
+          "difference_kop": 0
+        },
+        "outgoing": {
+          "header_kop": 3230000,
+          "rows_kop": 3230000,
+          "difference_kop": 0
+        }
+      },
+      "unlinked_exception_rows": [],
+      "exception_rows_for_other_declarations": {},
+      "out_of_scope_rows": [],
+      "unrecognized_movement_rows": [],
+      "groups": {
+        "10000000/010926/0000001": {
+          "status": "manual_review",
+          "reasons": [
+            "multiple_ledger_rows"
+          ],
+          "ledger_kop": 1300000,
+          "report_kop": 1250000,
+          "delta_kop": -50000,
+          "ledger_rows": [
+            "УЧ-01",
+            "УЧ-05"
+          ],
+          "report_rows": [
+            "ФТС-01"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/020926/0000002": {
+          "status": "amount_difference",
+          "reasons": [],
+          "ledger_kop": 750000,
+          "report_kop": 720000,
+          "delta_kop": -30000,
+          "ledger_rows": [
+            "УЧ-02"
+          ],
+          "report_rows": [
+            "ФТС-02"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/030926/0000003": {
+          "status": "amount_difference",
+          "reasons": [],
+          "ledger_kop": 1000000,
+          "report_kop": 1030000,
+          "delta_kop": 30000,
+          "ledger_rows": [
+            "УЧ-03"
+          ],
+          "report_rows": [
+            "ФТС-03"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/040926/0000004": {
+          "status": "ledger_only",
+          "reasons": [],
+          "ledger_kop": 230000,
+          "report_kop": 0,
+          "delta_kop": -230000,
+          "ledger_rows": [
+            "УЧ-04"
+          ],
+          "report_rows": [],
+          "linked_exception_rows": []
+        },
+        "10000000/050926/0000005": {
+          "status": "report_only",
+          "reasons": [],
+          "ledger_kop": 0,
+          "report_kop": 230000,
+          "delta_kop": 230000,
+          "ledger_rows": [],
+          "report_rows": [
+            "ФТС-04"
+          ],
+          "linked_exception_rows": []
+        }
+      }
+    },
+    "incomplete_period": {
+      "report_control": {
+        "incoming": {
+          "header_kop": 0,
+          "rows_kop": 0,
+          "difference_kop": 0
+        },
+        "outgoing": {
+          "header_kop": 3230000,
+          "rows_kop": 3230000,
+          "difference_kop": 0
+        }
+      },
+      "unlinked_exception_rows": [],
+      "exception_rows_for_other_declarations": {},
+      "out_of_scope_rows": [],
+      "unrecognized_movement_rows": [],
+      "groups": {
+        "10000000/010926/0000001": {
+          "status": "manual_review",
+          "reasons": [
+            "debit_period_unconfirmed_or_incomplete"
+          ],
+          "ledger_kop": 1250000,
+          "report_kop": 1250000,
+          "delta_kop": 0,
+          "ledger_rows": [
+            "УЧ-01"
+          ],
+          "report_rows": [
+            "ФТС-01"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/020926/0000002": {
+          "status": "amount_difference",
+          "reasons": [],
+          "ledger_kop": 750000,
+          "report_kop": 720000,
+          "delta_kop": -30000,
+          "ledger_rows": [
+            "УЧ-02"
+          ],
+          "report_rows": [
+            "ФТС-02"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/030926/0000003": {
+          "status": "amount_difference",
+          "reasons": [],
+          "ledger_kop": 1000000,
+          "report_kop": 1030000,
+          "delta_kop": 30000,
+          "ledger_rows": [
+            "УЧ-03"
+          ],
+          "report_rows": [
+            "ФТС-03"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/040926/0000004": {
+          "status": "ledger_only",
+          "reasons": [],
+          "ledger_kop": 230000,
+          "report_kop": 0,
+          "delta_kop": -230000,
+          "ledger_rows": [
+            "УЧ-04"
+          ],
+          "report_rows": [],
+          "linked_exception_rows": []
+        },
+        "10000000/050926/0000005": {
+          "status": "report_only",
+          "reasons": [],
+          "ledger_kop": 0,
+          "report_kop": 230000,
+          "delta_kop": 230000,
+          "ledger_rows": [],
+          "report_rows": [
+            "ФТС-04"
+          ],
+          "linked_exception_rows": []
+        }
+      }
+    },
+    "missing_period": {
+      "report_control": {
+        "incoming": {
+          "header_kop": 0,
+          "rows_kop": 0,
+          "difference_kop": 0
+        },
+        "outgoing": {
+          "header_kop": 3230000,
+          "rows_kop": 3230000,
+          "difference_kop": 0
+        }
+      },
+      "unlinked_exception_rows": [],
+      "exception_rows_for_other_declarations": {},
+      "out_of_scope_rows": [],
+      "unrecognized_movement_rows": [],
+      "groups": {
+        "10000000/010926/0000001": {
+          "status": "manual_review",
+          "reasons": [
+            "debit_period_unconfirmed_or_incomplete"
+          ],
+          "ledger_kop": 1250000,
+          "report_kop": 1250000,
+          "delta_kop": 0,
+          "ledger_rows": [
+            "УЧ-01"
+          ],
+          "report_rows": [
+            "ФТС-01"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/020926/0000002": {
+          "status": "amount_difference",
+          "reasons": [],
+          "ledger_kop": 750000,
+          "report_kop": 720000,
+          "delta_kop": -30000,
+          "ledger_rows": [
+            "УЧ-02"
+          ],
+          "report_rows": [
+            "ФТС-02"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/030926/0000003": {
+          "status": "amount_difference",
+          "reasons": [],
+          "ledger_kop": 1000000,
+          "report_kop": 1030000,
+          "delta_kop": 30000,
+          "ledger_rows": [
+            "УЧ-03"
+          ],
+          "report_rows": [
+            "ФТС-03"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/040926/0000004": {
+          "status": "ledger_only",
+          "reasons": [],
+          "ledger_kop": 230000,
+          "report_kop": 0,
+          "delta_kop": -230000,
+          "ledger_rows": [
+            "УЧ-04"
+          ],
+          "report_rows": [],
+          "linked_exception_rows": []
+        },
+        "10000000/050926/0000005": {
+          "status": "report_only",
+          "reasons": [],
+          "ledger_kop": 0,
+          "report_kop": 230000,
+          "delta_kop": 230000,
+          "ledger_rows": [],
+          "report_rows": [
+            "ФТС-04"
+          ],
+          "linked_exception_rows": []
+        }
+      }
+    },
+    "possible_duplicate": {
+      "report_control": {
+        "incoming": {
+          "header_kop": 0,
+          "rows_kop": 0,
+          "difference_kop": 0
+        },
+        "outgoing": {
+          "header_kop": 3230000,
+          "rows_kop": 3230000,
+          "difference_kop": 0
+        }
+      },
+      "unlinked_exception_rows": [],
+      "exception_rows_for_other_declarations": {},
+      "out_of_scope_rows": [],
+      "unrecognized_movement_rows": [],
+      "groups": {
+        "10000000/010926/0000001": {
+          "status": "manual_review",
+          "reasons": [
+            "possible_duplicate"
+          ],
+          "ledger_kop": 1250000,
+          "report_kop": 1250000,
+          "delta_kop": 0,
+          "ledger_rows": [
+            "УЧ-01"
+          ],
+          "report_rows": [
+            "ФТС-01",
+            "ФТС-05"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/020926/0000002": {
+          "status": "amount_difference",
+          "reasons": [],
+          "ledger_kop": 750000,
+          "report_kop": 720000,
+          "delta_kop": -30000,
+          "ledger_rows": [
+            "УЧ-02"
+          ],
+          "report_rows": [
+            "ФТС-02"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/030926/0000003": {
+          "status": "amount_difference",
+          "reasons": [],
+          "ledger_kop": 1000000,
+          "report_kop": 1030000,
+          "delta_kop": 30000,
+          "ledger_rows": [
+            "УЧ-03"
+          ],
+          "report_rows": [
+            "ФТС-03"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/040926/0000004": {
+          "status": "ledger_only",
+          "reasons": [],
+          "ledger_kop": 230000,
+          "report_kop": 0,
+          "delta_kop": -230000,
+          "ledger_rows": [
+            "УЧ-04"
+          ],
+          "report_rows": [],
+          "linked_exception_rows": []
+        },
+        "10000000/050926/0000005": {
+          "status": "report_only",
+          "reasons": [],
+          "ledger_kop": 0,
+          "report_kop": 230000,
+          "delta_kop": 230000,
+          "ledger_rows": [],
+          "report_rows": [
+            "ФТС-04"
+          ],
+          "linked_exception_rows": []
+        }
+      }
+    },
+    "different_kbk": {
+      "report_control": {
+        "incoming": {
+          "header_kop": 0,
+          "rows_kop": 0,
+          "difference_kop": 0
+        },
+        "outgoing": {
+          "header_kop": 3230000,
+          "rows_kop": 3230000,
+          "difference_kop": 0
+        }
+      },
+      "unlinked_exception_rows": [],
+      "exception_rows_for_other_declarations": {},
+      "out_of_scope_rows": [],
+      "unrecognized_movement_rows": [],
+      "groups": {
+        "10000000/010926/0000001": {
+          "status": "equal",
+          "reasons": [],
+          "ledger_kop": 1250000,
+          "report_kop": 1250000,
+          "delta_kop": 0,
+          "ledger_rows": [
+            "УЧ-01"
+          ],
+          "report_rows": [
+            "ФТС-01",
+            "ФТС-05"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/020926/0000002": {
+          "status": "amount_difference",
+          "reasons": [],
+          "ledger_kop": 750000,
+          "report_kop": 720000,
+          "delta_kop": -30000,
+          "ledger_rows": [
+            "УЧ-02"
+          ],
+          "report_rows": [
+            "ФТС-02"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/030926/0000003": {
+          "status": "amount_difference",
+          "reasons": [],
+          "ledger_kop": 1000000,
+          "report_kop": 1030000,
+          "delta_kop": 30000,
+          "ledger_rows": [
+            "УЧ-03"
+          ],
+          "report_rows": [
+            "ФТС-03"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/040926/0000004": {
+          "status": "ledger_only",
+          "reasons": [],
+          "ledger_kop": 230000,
+          "report_kop": 0,
+          "delta_kop": -230000,
+          "ledger_rows": [
+            "УЧ-04"
+          ],
+          "report_rows": [],
+          "linked_exception_rows": []
+        },
+        "10000000/050926/0000005": {
+          "status": "report_only",
+          "reasons": [],
+          "ledger_kop": 0,
+          "report_kop": 230000,
+          "delta_kop": 230000,
+          "ledger_rows": [],
+          "report_rows": [
+            "ФТС-04"
+          ],
+          "linked_exception_rows": []
+        }
+      }
+    },
+    "duplicate_report_source": {
+      "stopped": "duplicate_source_row",
+      "report_control": {
+        "incoming": {
+          "header_kop": 0,
+          "rows_kop": 0,
+          "difference_kop": 0
+        },
+        "outgoing": {
+          "header_kop": 3230000,
+          "rows_kop": 3230000,
+          "difference_kop": 0
+        }
+      },
+      "duplicate_source_rows": {
+        "fts": {
+          "ФТС-01": [
+            {
+              "row": "ФТС-01",
+              "movement_date": "2026-09-10",
+              "document_date": "2026-09-01",
+              "kind": "ДТ",
+              "document_number": "10000000/010926/0000001",
+              "linked_declaration": null,
+              "kbk": "КБК-1",
+              "incoming_kop": 0,
+              "outgoing_kop": 625000
+            },
+            {
+              "row": "ФТС-01",
+              "movement_date": "2026-09-10",
+              "document_date": "2026-09-01",
+              "kind": "ДТ",
+              "document_number": "10000000/010926/0000001",
+              "linked_declaration": null,
+              "kbk": "КБК-2",
+              "incoming_kop": 0,
+              "outgoing_kop": 625000
+            }
+          ]
+        }
+      }
+    },
+    "duplicate_ledger_source": {
+      "stopped": "duplicate_source_row",
+      "report_control": {
+        "incoming": {
+          "header_kop": 0,
+          "rows_kop": 0,
+          "difference_kop": 0
+        },
+        "outgoing": {
+          "header_kop": 3230000,
+          "rows_kop": 3230000,
+          "difference_kop": 0
+        }
+      },
+      "duplicate_source_rows": {
+        "ledger": {
+          "УЧ-01": [
+            {
+              "row": "УЧ-01",
+              "declaration": "10000000/010926/0000001",
+              "release_date": "2026-09-02",
+              "initial_kop": 1250000,
+              "own_account": true,
+              "domestic_release": true,
+              "confirmed_debit_period": [
+                "2026-09-10",
+                "2026-09-10"
+              ]
+            },
+            {
+              "row": "УЧ-01",
+              "declaration": "10000000/020926/0000002",
+              "release_date": "2026-09-03",
+              "initial_kop": 750000,
+              "own_account": true,
+              "domestic_release": true,
+              "confirmed_debit_period": [
+                "2026-09-11",
+                "2026-09-11"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "linked_adjustment": {
+      "report_control": {
+        "incoming": {
+          "header_kop": 0,
+          "rows_kop": 0,
+          "difference_kop": 0
+        },
+        "outgoing": {
+          "header_kop": 3280000,
+          "rows_kop": 3280000,
+          "difference_kop": 0
+        }
+      },
+      "unlinked_exception_rows": [],
+      "exception_rows_for_other_declarations": {},
+      "out_of_scope_rows": [],
+      "unrecognized_movement_rows": [],
+      "groups": {
+        "10000000/010926/0000001": {
+          "status": "manual_review",
+          "reasons": [
+            "linked_adjustment_or_refund"
+          ],
+          "ledger_kop": 1250000,
+          "report_kop": 1250000,
+          "delta_kop": 0,
+          "ledger_rows": [
+            "УЧ-01"
+          ],
+          "report_rows": [
+            "ФТС-01"
+          ],
+          "linked_exception_rows": [
+            "ФТС-05"
+          ]
+        },
+        "10000000/020926/0000002": {
+          "status": "amount_difference",
+          "reasons": [],
+          "ledger_kop": 750000,
+          "report_kop": 720000,
+          "delta_kop": -30000,
+          "ledger_rows": [
+            "УЧ-02"
+          ],
+          "report_rows": [
+            "ФТС-02"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/030926/0000003": {
+          "status": "amount_difference",
+          "reasons": [],
+          "ledger_kop": 1000000,
+          "report_kop": 1030000,
+          "delta_kop": 30000,
+          "ledger_rows": [
+            "УЧ-03"
+          ],
+          "report_rows": [
+            "ФТС-03"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/040926/0000004": {
+          "status": "ledger_only",
+          "reasons": [],
+          "ledger_kop": 230000,
+          "report_kop": 0,
+          "delta_kop": -230000,
+          "ledger_rows": [
+            "УЧ-04"
+          ],
+          "report_rows": [],
+          "linked_exception_rows": []
+        },
+        "10000000/050926/0000005": {
+          "status": "report_only",
+          "reasons": [],
+          "ledger_kop": 0,
+          "report_kop": 230000,
+          "delta_kop": 230000,
+          "ledger_rows": [],
+          "report_rows": [
+            "ФТС-04"
+          ],
+          "linked_exception_rows": []
+        }
+      }
+    },
+    "unlinked_adjustment": {
+      "report_control": {
+        "incoming": {
+          "header_kop": 0,
+          "rows_kop": 0,
+          "difference_kop": 0
+        },
+        "outgoing": {
+          "header_kop": 3280000,
+          "rows_kop": 3280000,
+          "difference_kop": 0
+        }
+      },
+      "unlinked_exception_rows": [
+        "ФТС-05"
+      ],
+      "exception_rows_for_other_declarations": {},
+      "out_of_scope_rows": [],
+      "unrecognized_movement_rows": [],
+      "groups": {
+        "10000000/010926/0000001": {
+          "status": "manual_review",
+          "reasons": [
+            "unlinked_adjustment_or_refund"
+          ],
+          "ledger_kop": 1250000,
+          "report_kop": 1250000,
+          "delta_kop": 0,
+          "ledger_rows": [
+            "УЧ-01"
+          ],
+          "report_rows": [
+            "ФТС-01"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/020926/0000002": {
+          "status": "manual_review",
+          "reasons": [
+            "unlinked_adjustment_or_refund"
+          ],
+          "ledger_kop": 750000,
+          "report_kop": 720000,
+          "delta_kop": -30000,
+          "ledger_rows": [
+            "УЧ-02"
+          ],
+          "report_rows": [
+            "ФТС-02"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/030926/0000003": {
+          "status": "manual_review",
+          "reasons": [
+            "unlinked_adjustment_or_refund"
+          ],
+          "ledger_kop": 1000000,
+          "report_kop": 1030000,
+          "delta_kop": 30000,
+          "ledger_rows": [
+            "УЧ-03"
+          ],
+          "report_rows": [
+            "ФТС-03"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/040926/0000004": {
+          "status": "manual_review",
+          "reasons": [
+            "unlinked_adjustment_or_refund"
+          ],
+          "ledger_kop": 230000,
+          "report_kop": 0,
+          "delta_kop": -230000,
+          "ledger_rows": [
+            "УЧ-04"
+          ],
+          "report_rows": [],
+          "linked_exception_rows": []
+        },
+        "10000000/050926/0000005": {
+          "status": "manual_review",
+          "reasons": [
+            "unlinked_adjustment_or_refund"
+          ],
+          "ledger_kop": 0,
+          "report_kop": 230000,
+          "delta_kop": 230000,
+          "ledger_rows": [],
+          "report_rows": [
+            "ФТС-04"
+          ],
+          "linked_exception_rows": []
+        }
+      }
+    },
+    "empty_adjustment_link": {
+      "report_control": {
+        "incoming": {
+          "header_kop": 0,
+          "rows_kop": 0,
+          "difference_kop": 0
+        },
+        "outgoing": {
+          "header_kop": 3280000,
+          "rows_kop": 3280000,
+          "difference_kop": 0
+        }
+      },
+      "unlinked_exception_rows": [
+        "ФТС-05"
+      ],
+      "exception_rows_for_other_declarations": {},
+      "out_of_scope_rows": [],
+      "unrecognized_movement_rows": [],
+      "groups": {
+        "10000000/010926/0000001": {
+          "status": "manual_review",
+          "reasons": [
+            "unlinked_adjustment_or_refund"
+          ],
+          "ledger_kop": 1250000,
+          "report_kop": 1250000,
+          "delta_kop": 0,
+          "ledger_rows": [
+            "УЧ-01"
+          ],
+          "report_rows": [
+            "ФТС-01"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/020926/0000002": {
+          "status": "manual_review",
+          "reasons": [
+            "unlinked_adjustment_or_refund"
+          ],
+          "ledger_kop": 750000,
+          "report_kop": 720000,
+          "delta_kop": -30000,
+          "ledger_rows": [
+            "УЧ-02"
+          ],
+          "report_rows": [
+            "ФТС-02"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/030926/0000003": {
+          "status": "manual_review",
+          "reasons": [
+            "unlinked_adjustment_or_refund"
+          ],
+          "ledger_kop": 1000000,
+          "report_kop": 1030000,
+          "delta_kop": 30000,
+          "ledger_rows": [
+            "УЧ-03"
+          ],
+          "report_rows": [
+            "ФТС-03"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/040926/0000004": {
+          "status": "manual_review",
+          "reasons": [
+            "unlinked_adjustment_or_refund"
+          ],
+          "ledger_kop": 230000,
+          "report_kop": 0,
+          "delta_kop": -230000,
+          "ledger_rows": [
+            "УЧ-04"
+          ],
+          "report_rows": [],
+          "linked_exception_rows": []
+        },
+        "10000000/050926/0000005": {
+          "status": "manual_review",
+          "reasons": [
+            "unlinked_adjustment_or_refund"
+          ],
+          "ledger_kop": 0,
+          "report_kop": 230000,
+          "delta_kop": 230000,
+          "ledger_rows": [],
+          "report_rows": [
+            "ФТС-04"
+          ],
+          "linked_exception_rows": []
+        }
+      }
+    },
+    "truncated_adjustment_link": {
+      "report_control": {
+        "incoming": {
+          "header_kop": 0,
+          "rows_kop": 0,
+          "difference_kop": 0
+        },
+        "outgoing": {
+          "header_kop": 3280000,
+          "rows_kop": 3280000,
+          "difference_kop": 0
+        }
+      },
+      "unlinked_exception_rows": [
+        "ФТС-05"
+      ],
+      "exception_rows_for_other_declarations": {},
+      "out_of_scope_rows": [],
+      "unrecognized_movement_rows": [],
+      "groups": {
+        "10000000/010926/0000001": {
+          "status": "manual_review",
+          "reasons": [
+            "unlinked_adjustment_or_refund"
+          ],
+          "ledger_kop": 1250000,
+          "report_kop": 1250000,
+          "delta_kop": 0,
+          "ledger_rows": [
+            "УЧ-01"
+          ],
+          "report_rows": [
+            "ФТС-01"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/020926/0000002": {
+          "status": "manual_review",
+          "reasons": [
+            "unlinked_adjustment_or_refund"
+          ],
+          "ledger_kop": 750000,
+          "report_kop": 720000,
+          "delta_kop": -30000,
+          "ledger_rows": [
+            "УЧ-02"
+          ],
+          "report_rows": [
+            "ФТС-02"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/030926/0000003": {
+          "status": "manual_review",
+          "reasons": [
+            "unlinked_adjustment_or_refund"
+          ],
+          "ledger_kop": 1000000,
+          "report_kop": 1030000,
+          "delta_kop": 30000,
+          "ledger_rows": [
+            "УЧ-03"
+          ],
+          "report_rows": [
+            "ФТС-03"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/040926/0000004": {
+          "status": "manual_review",
+          "reasons": [
+            "unlinked_adjustment_or_refund"
+          ],
+          "ledger_kop": 230000,
+          "report_kop": 0,
+          "delta_kop": -230000,
+          "ledger_rows": [
+            "УЧ-04"
+          ],
+          "report_rows": [],
+          "linked_exception_rows": []
+        },
+        "10000000/050926/0000005": {
+          "status": "manual_review",
+          "reasons": [
+            "unlinked_adjustment_or_refund"
+          ],
+          "ledger_kop": 0,
+          "report_kop": 230000,
+          "delta_kop": 230000,
+          "ledger_rows": [],
+          "report_rows": [
+            "ФТС-04"
+          ],
+          "linked_exception_rows": []
+        }
+      }
+    },
+    "missing_adjustment_link": {
+      "report_control": {
+        "incoming": {
+          "header_kop": 0,
+          "rows_kop": 0,
+          "difference_kop": 0
+        },
+        "outgoing": {
+          "header_kop": 3280000,
+          "rows_kop": 3280000,
+          "difference_kop": 0
+        }
+      },
+      "unlinked_exception_rows": [
+        "ФТС-05"
+      ],
+      "exception_rows_for_other_declarations": {},
+      "out_of_scope_rows": [],
+      "unrecognized_movement_rows": [],
+      "groups": {
+        "10000000/010926/0000001": {
+          "status": "manual_review",
+          "reasons": [
+            "unlinked_adjustment_or_refund"
+          ],
+          "ledger_kop": 1250000,
+          "report_kop": 1250000,
+          "delta_kop": 0,
+          "ledger_rows": [
+            "УЧ-01"
+          ],
+          "report_rows": [
+            "ФТС-01"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/020926/0000002": {
+          "status": "manual_review",
+          "reasons": [
+            "unlinked_adjustment_or_refund"
+          ],
+          "ledger_kop": 750000,
+          "report_kop": 720000,
+          "delta_kop": -30000,
+          "ledger_rows": [
+            "УЧ-02"
+          ],
+          "report_rows": [
+            "ФТС-02"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/030926/0000003": {
+          "status": "manual_review",
+          "reasons": [
+            "unlinked_adjustment_or_refund"
+          ],
+          "ledger_kop": 1000000,
+          "report_kop": 1030000,
+          "delta_kop": 30000,
+          "ledger_rows": [
+            "УЧ-03"
+          ],
+          "report_rows": [
+            "ФТС-03"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/040926/0000004": {
+          "status": "manual_review",
+          "reasons": [
+            "unlinked_adjustment_or_refund"
+          ],
+          "ledger_kop": 230000,
+          "report_kop": 0,
+          "delta_kop": -230000,
+          "ledger_rows": [
+            "УЧ-04"
+          ],
+          "report_rows": [],
+          "linked_exception_rows": []
+        },
+        "10000000/050926/0000005": {
+          "status": "manual_review",
+          "reasons": [
+            "unlinked_adjustment_or_refund"
+          ],
+          "ledger_kop": 0,
+          "report_kop": 230000,
+          "delta_kop": 230000,
+          "ledger_rows": [],
+          "report_rows": [
+            "ФТС-04"
+          ],
+          "linked_exception_rows": []
+        }
+      }
+    },
+    "refund_for_another_declaration": {
+      "report_control": {
+        "incoming": {
+          "header_kop": 0,
+          "rows_kop": 0,
+          "difference_kop": 0
+        },
+        "outgoing": {
+          "header_kop": 3280000,
+          "rows_kop": 3280000,
+          "difference_kop": 0
+        }
+      },
+      "unlinked_exception_rows": [],
+      "exception_rows_for_other_declarations": {
+        "10000000/010926/0000009": [
+          "ФТС-05"
+        ]
+      },
+      "out_of_scope_rows": [],
+      "unrecognized_movement_rows": [],
+      "groups": {
+        "10000000/010926/0000001": {
+          "status": "equal",
+          "reasons": [],
+          "ledger_kop": 1250000,
+          "report_kop": 1250000,
+          "delta_kop": 0,
+          "ledger_rows": [
+            "УЧ-01"
+          ],
+          "report_rows": [
+            "ФТС-01"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/020926/0000002": {
+          "status": "amount_difference",
+          "reasons": [],
+          "ledger_kop": 750000,
+          "report_kop": 720000,
+          "delta_kop": -30000,
+          "ledger_rows": [
+            "УЧ-02"
+          ],
+          "report_rows": [
+            "ФТС-02"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/030926/0000003": {
+          "status": "amount_difference",
+          "reasons": [],
+          "ledger_kop": 1000000,
+          "report_kop": 1030000,
+          "delta_kop": 30000,
+          "ledger_rows": [
+            "УЧ-03"
+          ],
+          "report_rows": [
+            "ФТС-03"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/040926/0000004": {
+          "status": "ledger_only",
+          "reasons": [],
+          "ledger_kop": 230000,
+          "report_kop": 0,
+          "delta_kop": -230000,
+          "ledger_rows": [
+            "УЧ-04"
+          ],
+          "report_rows": [],
+          "linked_exception_rows": []
+        },
+        "10000000/050926/0000005": {
+          "status": "report_only",
+          "reasons": [],
+          "ledger_kop": 0,
+          "report_kop": 230000,
+          "delta_kop": 230000,
+          "ledger_rows": [],
+          "report_rows": [
+            "ФТС-04"
+          ],
+          "linked_exception_rows": []
+        }
+      }
+    },
+    "unrecognized_movement": {
+      "report_control": {
+        "incoming": {
+          "header_kop": 0,
+          "rows_kop": 0,
+          "difference_kop": 0
+        },
+        "outgoing": {
+          "header_kop": 3280000,
+          "rows_kop": 3280000,
+          "difference_kop": 0
+        }
+      },
+      "unlinked_exception_rows": [],
+      "exception_rows_for_other_declarations": {},
+      "out_of_scope_rows": [],
+      "unrecognized_movement_rows": [
+        {
+          "row": "CHECK-X",
+          "movement_date": "2026-09-10",
+          "document_date": "2026-09-01",
+          "kind": "не распознано",
+          "document_number": "CHECK-X",
+          "linked_declaration": null,
+          "kbk": "КБК-1",
+          "incoming_kop": 0,
+          "outgoing_kop": 50000
+        }
+      ],
+      "groups": {
+        "10000000/010926/0000001": {
+          "status": "manual_review",
+          "reasons": [
+            "unrecognized_movement"
+          ],
+          "ledger_kop": 1250000,
+          "report_kop": 1250000,
+          "delta_kop": 0,
+          "ledger_rows": [
+            "УЧ-01"
+          ],
+          "report_rows": [
+            "ФТС-01"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/020926/0000002": {
+          "status": "manual_review",
+          "reasons": [
+            "unrecognized_movement"
+          ],
+          "ledger_kop": 750000,
+          "report_kop": 720000,
+          "delta_kop": -30000,
+          "ledger_rows": [
+            "УЧ-02"
+          ],
+          "report_rows": [
+            "ФТС-02"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/030926/0000003": {
+          "status": "manual_review",
+          "reasons": [
+            "unrecognized_movement"
+          ],
+          "ledger_kop": 1000000,
+          "report_kop": 1030000,
+          "delta_kop": 30000,
+          "ledger_rows": [
+            "УЧ-03"
+          ],
+          "report_rows": [
+            "ФТС-03"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/040926/0000004": {
+          "status": "manual_review",
+          "reasons": [
+            "unrecognized_movement"
+          ],
+          "ledger_kop": 230000,
+          "report_kop": 0,
+          "delta_kop": -230000,
+          "ledger_rows": [
+            "УЧ-04"
+          ],
+          "report_rows": [],
+          "linked_exception_rows": []
+        },
+        "10000000/050926/0000005": {
+          "status": "manual_review",
+          "reasons": [
+            "unrecognized_movement"
+          ],
+          "ledger_kop": 0,
+          "report_kop": 230000,
+          "delta_kop": 230000,
+          "ledger_rows": [],
+          "report_rows": [
+            "ФТС-04"
+          ],
+          "linked_exception_rows": []
+        }
+      }
+    },
+    "known_out_of_scope_movement": {
+      "report_control": {
+        "incoming": {
+          "header_kop": 0,
+          "rows_kop": 0,
+          "difference_kop": 0
+        },
+        "outgoing": {
+          "header_kop": 3280000,
+          "rows_kop": 3280000,
+          "difference_kop": 0
+        }
+      },
+      "unlinked_exception_rows": [],
+      "exception_rows_for_other_declarations": {},
+      "out_of_scope_rows": [
+        {
+          "row": "CHECK-PLEDGE",
+          "movement_date": "2026-09-10",
+          "document_date": "2026-09-01",
+          "kind": "залог",
+          "document_number": "CHECK-PLEDGE",
+          "linked_declaration": null,
+          "kbk": "КБК-1",
+          "incoming_kop": 0,
+          "outgoing_kop": 50000
+        }
+      ],
+      "unrecognized_movement_rows": [],
+      "groups": {
+        "10000000/010926/0000001": {
+          "status": "equal",
+          "reasons": [],
+          "ledger_kop": 1250000,
+          "report_kop": 1250000,
+          "delta_kop": 0,
+          "ledger_rows": [
+            "УЧ-01"
+          ],
+          "report_rows": [
+            "ФТС-01"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/020926/0000002": {
+          "status": "amount_difference",
+          "reasons": [],
+          "ledger_kop": 750000,
+          "report_kop": 720000,
+          "delta_kop": -30000,
+          "ledger_rows": [
+            "УЧ-02"
+          ],
+          "report_rows": [
+            "ФТС-02"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/030926/0000003": {
+          "status": "amount_difference",
+          "reasons": [],
+          "ledger_kop": 1000000,
+          "report_kop": 1030000,
+          "delta_kop": 30000,
+          "ledger_rows": [
+            "УЧ-03"
+          ],
+          "report_rows": [
+            "ФТС-03"
+          ],
+          "linked_exception_rows": []
+        },
+        "10000000/040926/0000004": {
+          "status": "ledger_only",
+          "reasons": [],
+          "ledger_kop": 230000,
+          "report_kop": 0,
+          "delta_kop": -230000,
+          "ledger_rows": [
+            "УЧ-04"
+          ],
+          "report_rows": [],
+          "linked_exception_rows": []
+        },
+        "10000000/050926/0000005": {
+          "status": "report_only",
+          "reasons": [],
+          "ledger_kop": 0,
+          "report_kop": 230000,
+          "delta_kop": 230000,
+          "ledger_rows": [],
+          "report_rows": [
+            "ФТС-04"
+          ],
+          "linked_exception_rows": []
+        }
+      }
+    },
+    "omitted_movement": {
+      "stopped": "report_totals_mismatch",
+      "report_control": {
+        "incoming": {
+          "header_kop": 0,
+          "rows_kop": 0,
+          "difference_kop": 0
+        },
+        "outgoing": {
+          "header_kop": 3230000,
+          "rows_kop": 3000000,
+          "difference_kop": -230000
+        }
+      }
+    },
+    "omitted_incoming": {
+      "stopped": "report_totals_mismatch",
+      "report_control": {
+        "incoming": {
+          "header_kop": 100000,
+          "rows_kop": 0,
+          "difference_kop": -100000
+        },
+        "outgoing": {
+          "header_kop": 3230000,
+          "rows_kop": 3230000,
+          "difference_kop": 0
+        }
+      }
+    },
+    "payer_mismatch": {
+      "stopped": "payer_mismatch"
+    }
+  }
+}
